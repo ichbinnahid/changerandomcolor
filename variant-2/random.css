@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #e74c3c;
+}
+
+.color{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+#hex{
+    display: block;
+    color: #fff;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+}
+
+.color button{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 6px 12px;
+    border-radius: 12px;
+}
+
+.color button:hover{
+    background: none;
+    outline: none;
+    color: #fff;
+    border: 3px solid #fff;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    transition: 0.3s linear ;
+    transform:  scale(1.5) ;
+}
